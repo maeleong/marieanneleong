@@ -481,13 +481,14 @@ body.section-show .transition-mask:before{
 	border-radius:0;
 }
 .front-person-img > img{
-	max-width:95%;
-	vertical-align:bottom;
-	-webkit-transform:rotate(-45deg) translateY(100px);
-	-moz-transform:rotate(-45deg) translateY(500px);
-	-ms-transform:rotate(-45deg) translateY(200px);
-	-o-transform:rotate(-45deg) translateY(200px);
-	transform:rotate(-45deg) translateY(0px);
+	max-width:100%;
+	/* vertical-align:bottom; */
+	
+	-webkit-transform:rotate(-45deg) translateY(0) scale(1.5);
+	-moz-transform:rotate(-45deg) translateY(0) scale(1.5);
+	-ms-transform:rotate(-45deg) translateY(0) scale(1.5);
+	-o-transform:rotate(-45deg) translateY(0) scale(1.5);
+	transform:rotate(-45deg) translateY(0px) scale(1.5);
 }
 
 .front-person-titles{
@@ -1803,11 +1804,11 @@ body .symp-btn{
 		width:360px;
 	}
 	.front-person-img > img{
-		-webkit-transform:rotate(-45deg) translateY(45px);
+		/* -webkit-transform:rotate(-45deg) translateY(45px);
 		-moz-transform:rotate(-45deg) translateY(45px);
 		-ms-transform:rotate(-45deg) translateY(45px);
 		-o-transform:rotate(-45deg) translateY(45px);
-		transform:rotate(-45deg) translateY(45px);
+		transform:rotate(-45deg) translateY(45px); */
 	}
 	.front-person-links{
 		-webkit-transform:rotate(0deg);
@@ -1905,13 +1906,23 @@ body .symp-btn{
 		margin-top:120px;
 	}
 	.front-person-img > img{
-		-webkit-transform:rotate(-45deg) translateY(45px);
+		/* -webkit-transform:rotate(-45deg) translateY(45px);
 		-moz-transform:rotate(-45deg) translateY(45px);
 		-ms-transform:rotate(-45deg) translateY(45px);
 		-o-transform:rotate(-45deg) translateY(45px);
-		transform:rotate(-45deg) translateY(100px);
+		transform:rotate(-45deg) translateY(100px); */
 		position:absolute;
-		bottom:0;
-		left:-40px;
+		top: 0;
+		left: 0;
+		/* bottom:0; */
+		/* left:-40px; */
 	}
 }
+
+
+
+/* .front-person-img > img {
+	vertical-align: middle;
+	max-width: 100%;
+
+} */
